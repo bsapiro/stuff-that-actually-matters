@@ -23,12 +23,25 @@ _(working title)_
 * 
 
 ##as we became connected we relied more on everything around us
+* your software relies on third party components, a data centre, other service providers
+* to make our software we work we may actually share some or all of the data we collect with someone who transforms it in some useful way
+* ...
 
 ##getting hacked
 * getting hacked - having your data stolen, your systems intruded open by unauthorized access - whatever the actual harm, the act is what we will focus on. The motivation behind a hackers actions is rarely informative until after the fact.
 * the old adage about getting hacked is that it's not if but when
-* "who would want to hack us" is not 
+* "who would want to hack us" is not a useful line of reasoning
+* asymmetry of security - you have to be right the entire time, hacker only has to be right once
+* automation - hackers embraced automation long before the software profession discovered devops. Hackers can trivially search the entire internet for a specific class of defect and then abuse it on mass
+* in highly automated criminal world, the cost to compromise a single system is approaching zero. You are just a target of opportunity
 
+##why are hacks possible?
+* we won't discuss all the means in fact we'll concencrate on concepts alone
+* bugs in software - pure implementation flaws, logic errors, design mistakes or intentional ommissions based on ignorance or invalid assumptions
+* implementation flaw lack of input validation
+* assuming you were operating inside an environment you have exclusive control of
+* relying on third parties/components to behave in a consistent manner
+* ...
 
 ##the smallest unit of data
 
