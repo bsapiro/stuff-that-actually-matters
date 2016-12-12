@@ -14,12 +14,21 @@ _(working title)_
 ##user expectations
 * users give us their data and expect us to keep it safe, they trust our software and by extension they trust us
 * use of data is not a neutral act, sharing of data, even if public, is not a neutral act. Whether that data is shared involuntarily, whether stolen or shared because of a monetization strategy (even if consented too) users feel a betrayal of trust
-* if 
+* if we share data in a way the user does not expect they lose confidence in us
+* if that data matters to them in some way then
 * the user expectation:
 
-> I will give you data and expect that you will keep it safe. Protected from unauthorized access; free from corruption and available when I need it. I will give you no room in this matter
+> I will give you data and expect that you will keep it safe. Protected from unauthorized access; free from corruption and available when I need it. I will give you no reprieve in this matter
 
 * 
+
+##as we became connected we relied more on everything around us
+
+##getting hacked
+* getting hacked - having your data stolen, your systems intruded open by unauthorized access - whatever the actual harm, the act is what we will focus on. The motivation behind a hackers actions is rarely informative until after the fact.
+* the old adage about getting hacked is that it's not if but when
+* "who would want to hack us" is not 
+
 
 ##the smallest unit of data
 
@@ -28,8 +37,27 @@ _(working title)_
 ##informed consent
 
 ##understanding (regulatory) harm
+* arguably getting hacked
+
+##the cost of a breach
+* investigation
+* downtime
+* reputation harm
+* loss of sales / loss of velocity / loss of users
+* cleanup
+* fixing broken software
+* lawyers (suing you)
+* lawyers (keeping you from being sued)
+* product recall (if your software is in a tangible thing)
+* dealing with regulators (like lawyers but less willing to compromise)
+
+##the lawyers are coming (actually they're already here)
+
+##the citizens are coming
 
 ##the internet's alpha predator
+
+##an impossible promise (but one we must make anyways)
 
 ##security and privacy at the beginning
 
@@ -39,5 +67,6 @@ _(working title)_
 
 ##it's a business problem
 
-## responsible disclosure
+##responsible disclosure
 
+##a note on the internet of shitty things
