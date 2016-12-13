@@ -62,7 +62,8 @@ _note: intentionally focused on why and what - not how_
 ##informed consent
 
 ##understanding (regulatory) harm
-* arguably getting hacked
+* arguably getting hacked is bad but there are different types of impact
+* ...
 
 ##the cost of a breach
 * investigation
@@ -75,12 +76,22 @@ _note: intentionally focused on why and what - not how_
 * lawyers (keeping you from being sued)
 * product recall (if your software is in a tangible thing)
 * dealing with regulators (like lawyers but less willing to compromise)
+* increased insurance costs (both directly and indirectly to other insureds)
 
 ##the lawyers are coming (actually they're already here)
+* contracts commit parties to protect data
+* lawyers have enlisted the help of technology professionals and security advisors in crafting legal contracts that speak to data protection
+* failure to meet contractual obligations result in contract breach which opens the door for litigation
+* lawyers may not understand the nuances of software development but they understand law, harm and failure to fulfill contract obligations
+* lawyers are also backed by a growing suite of data protection regulation (software distributed globally can run afoul of many laws)
 
 ##the citizens are coming
+* security breaches have resulted in class action lawsuits against Sony, Home Depot, TJX and others
+* legislation in the EU will give individual the ability to pursue companies directly that fail to protect data properly (this includes suppliers to other companies)
 
 ##the internet's alpha predator
+* Snowden's revelations about the NSA and Five Eyes confirmed our wildest fears
+* ...
 
 ##an impossible promise (but one we must make anyways)
 
@@ -96,7 +107,7 @@ _note: intentionally focused on why and what - not how_
 
 ##design defensively - do not put yourself in a position of trust
 * as we see legislation being passed in the United Kingdom, China and other jurisdictions that either require that "technical assistance" of some sort be provided to law enforcement on request. At first that seems entirely reasonable, but what if that technical assistance means weakening encryption or putting a backdoor in your software?
-* Apple security... the HSMs... engineers willing to quit
+* Apple security... the HSMs... engineers were willing to quit
 
 ##a call for help
 * built software that follows security and privacy patterns
@@ -105,3 +116,7 @@ _note: intentionally focused on why and what - not how_
 * make eveyone in your team responsible for delivering software that is secure and respects a user's privacy by design
 
 ##a note on the internet of shitty things
+* We're connecting more of our lifes by instrumenting our movements, automating our homes
+* The software inside IoT devices has poor quality (Mirai botnet) and remains unpatched, outdated with little incentive to manufacturers to update
+* Not only do these poorly designed software devices expose their owners to harm but we've seen them (massive Botnets)
+* IoT devices are long term devices; we've seen with SCADA/PLC that they remain in use far past their "best before date" meaning risk lives for a long time
