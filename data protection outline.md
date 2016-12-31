@@ -62,9 +62,12 @@ _note: intentionally focused on why and what - not how (there are plenty of publ
 ##privacy and security
 * two sides of the same promise "only you, the user will have access to your data, you sytem"
 * overlapping definitions although privacy's left outer join includes aspects of sharing and user consent while security's right outer join includes aspects of availability (uptime) and unauthorized access to computing resources that are not data (such as CPU cycles)
-* at this point in our technological evolution we should treat them as one and the same; privacy cannot exist with the assurances security provides and privacy drives the need for security.
+* at this point in our technological evolution we should treat them as one and the same; privacy cannot exist without the assurances security provides and privacy drives the need for security.
 
 ##informed consent
+* users must agree to share their data with you
+* you must explain what you will do with that data
+* if you suddenly change what you do with that data, start collecting more or share it in ways users don't know then you violate their privacy
 
 ##the cost of a breach
 * investigation
