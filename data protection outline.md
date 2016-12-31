@@ -2,7 +2,7 @@
 
 _(working title)_
 
-_note: intentionally focused on why and what - not how_
+_note: intentionally focused on why and what - not how (there are plenty of publications on how to build software that protects data_
 
 ##a software based society
 * we are increasingly a software based society (software eats the world argument)
@@ -10,8 +10,9 @@ _note: intentionally focused on why and what - not how_
 * software runs critical parts of our society from financial systems to electrical grids to manufacturing. Software keeps planes in the sky and keeps us connected (even your old bakelite phone relies on a smart network core to route your call)
 * even software that isn't mission critical was become important to its users
 * if software fails to work the way we expect, whether by accident or by malicious design, it has impact on its users ranging from mild inconvenience to business disruption to life altering events (cite impact of Russian intelligence activities)
-* we aren't just build software, we're building fundamental parts of society
+* we aren't just building software, we're building fundamental parts of society
 * consider software that has crossed the 1 million user mark, those that have crossed 1 billion. How many users does software need before it is part of society? It could be as little as one user in one important company. 
+* if our software is relied upon by civil society, do we have a moral responsibility to them?
 
 ##user expectations
 * users give us their data and expect us to keep it safe, they trust our software and by extension they trust us
@@ -91,7 +92,9 @@ _note: intentionally focused on why and what - not how_
 
 ##the internet's alpha predator
 * Snowden's revelations about the NSA and Five Eyes confirmed our wildest fears
-* ...
+* we know governments are acting against their citizens, sometimes with deadly consequences, by abusing flaws in software
+* governments have don't demonstrate the same economic rationale as other hackers. Specifically, a moderately protected system may be enough to dissaude the "common" criminal but a government may be willing to spend well in excess (either in effort or actual cost) to compromise specific targets for reasons of national security. While there may be some legitimate national interests at stake, an anti-government activist or a journalist are hardly that.
+* If civil society depends on certain assumed security properties of your software, their absence may actually result in actual harm including the possibility of inprisonment or death
 
 ##an impossible promise (but one we must make anyways)
 
@@ -102,6 +105,16 @@ _note: intentionally focused on why and what - not how_
 ##well understood solution patterns
 
 ##it's a business problem
+* While this manifests as a technology problem, it is at its heart a decision around where to spend resources. Shall we ship more features or ship safer features? 
+* The business wants to make an informed decision around what the likelihood and impact of a security breach is versus the likelihood and impact of having fewer features than the market demands. In the lack of good data, they're most likely to see the failure to stay competitive as the far more urgent risk
+* We know that security breaches happen, we know they have varying degrees of severity and while actuarial tables don't exist for this class of risk, it is possible to build informed models that actually describe the likelihood of a breach and it's actual impact (Monte Carlo sim, "How to Measure Anything" by Douglas W. Hubbard - no... not that Hubbard)
+* Good coding style is barely more expensive in the short term and cheaper in the long term. Good design practices are likely more expensive for the duration (security at a design may require more abstractions and overall functionality)
+* be cautious of the "do just enough" or "what's the rest of the market doing" rationale. While it may be a rational business decision, consider the following:
+..* being industry average is literal solace when you get hacked and your competitors don't
+..* if the rest of the industry does a poor job, does that excuse you from your moral responsibility to do the right thing?
+..* some classes of bugs are trivial to fix quickly but for those that are not, you could find your software in a vulnerable state for months as you refactor code or possibly even rearchitect your software
+..* you do not control the rate of progress the criminal element (or even security researchers) make in abusing vulnerabilities in your software. More importantly you are blind to their efforts (and possibly even their success)
+* Best case you're playing a case of catchup to fix a security defect, worse case you're cleaning up after its too late
 
 ##responsible disclosure
 
@@ -118,5 +131,6 @@ _note: intentionally focused on why and what - not how_
 ##a note on the internet of shitty things
 * We're connecting more of our lifes by instrumenting our movements, automating our homes
 * The software inside IoT devices has poor quality (Mirai botnet) and remains unpatched, outdated with little incentive to manufacturers to update
-* Not only do these poorly designed software devices expose their owners to harm but we've seen them (massive Botnets)
+* Not only do these poorly designed software devices expose their owners to harm but we've seen them cause harm to others (massive Botnets)
 * IoT devices are long term devices; we've seen with SCADA/PLC that they remain in use far past their "best before date" meaning risk lives for a long time
+* If you are building software that powers IoT devices then building defensively from day is essential and having a plan to keep security updated. IoT software builders find themself in potential position of having to maintain software forever, possibly long after such maintenance is no longer profitable. A difficult position to be in but one that only underscores the need for building security in at the very beginning or face the possibility of expensive maintenance work later. In the enterprise world where devices are covered by support contracts and End Of Life notices are often ignored, what will happen in a world where IoT device manufacturers are selling devices to consumers who are still running Windows XP well after it's end-of-life date?
