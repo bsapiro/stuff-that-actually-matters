@@ -66,10 +66,6 @@ _note: intentionally focused on why and what - not how (there are plenty of publ
 
 ##informed consent
 
-##understanding (regulatory) harm
-* arguably getting hacked is bad but there are different types of impact
-* ...
-
 ##the cost of a breach
 * investigation
 * downtime
@@ -80,7 +76,7 @@ _note: intentionally focused on why and what - not how (there are plenty of publ
 * lawyers (suing you)
 * lawyers (keeping you from being sued)
 * product recall (if your software is in a tangible thing)
-* dealing with regulators (like lawyers but less willing to compromise)
+* dealing with regulators (like lawyers but less willing to compromise) because of regulatory harm
 * increased insurance costs (both directly and indirectly to other insureds)
 
 ##the lawyers are coming (actually they're already here)
