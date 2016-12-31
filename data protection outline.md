@@ -120,7 +120,8 @@ _note: intentionally focused on why and what - not how (there are plenty of publ
 
 ##design defensively - do not put yourself in a position of trust
 * as we see legislation being passed in the United Kingdom, China and other jurisdictions that either require that "technical assistance" of some sort be provided to law enforcement on request. At first that seems entirely reasonable, but what if that technical assistance means weakening encryption or putting a backdoor in your software?
-* Apple security... the HSMs... engineers were willing to quit
+* Apple engineers were willing to quit if forced to undermine the security of their product (http://www.nytimes.com/2016/03/18/technology/apple-encryption-engineers-if-ordered-to-unlock-iphone-might-resist.html?_r=0). How many of us are willing to put principle over pay check? What about our own freedom?
+* Don't make your security depend on you behaving in a moral/ethical fashion. Make your security work even if you fail to do so. If you have privileged access that can be abused, then you are a weakness in the security of system and you undermine the security you provide whether you do act maliciously or are forced to do so by others
 
 ##a call for help
 * built software that follows security and privacy patterns
