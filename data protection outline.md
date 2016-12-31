@@ -99,10 +99,17 @@ _note: intentionally focused on why and what - not how (there are plenty of publ
 ##an impossible promise (but one we must make anyways)
 
 ##security and privacy at the beginning
+note: _might move this closer to the business problem point_
+* putting the cat back in the bag, or undoing the damage caused by a breach is difficult or perhaps impossible
+* refactoring code and design to achieve data protection outcomes is an expensive form of maintenance on youtube
+* building in security and privacy through good coding style is barely more expensive
 
 ##well understood problems 
-
-##well understood solution patterns
+* there are hundreds of security conferences, thousands of publications and tens of thousands of talks on how security in software fails
+* a video how to hack a web app or circumvent common security can easily be found on youtube
+* while we deal with new manifestations of a given security problem as our technology evolves, the underlying principles in security failures (such as trusting input from an untrusted source) have not evolved in decades
+* other than time there is nothing stopping a software engineer from gaining a basic knowledge of how software security fails
+* the solutions to these problems (input and output validation, enforcing of trust boundaries, controlling access to resources) are well documented and easily accessible
 
 ##it's a business problem
 * While this manifests as a technology problem, it is at its heart a decision around where to spend resources. Shall we ship more features or ship safer features? 
