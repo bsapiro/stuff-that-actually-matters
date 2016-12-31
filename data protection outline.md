@@ -60,6 +60,9 @@ _note: intentionally focused on why and what - not how (there are plenty of publ
 * However, we're not just entrusted with passwords, we store and process so much more and those passwords are there to protect the data from unauthorized access. If we need to protect the passwords to the best of our ability then by extension the same requirement extends to the data itself. It's pointless to protect passwords alone.
 
 ##privacy and security
+* two sides of the same promise "only you, the user will have access to your data, you sytem"
+* overlapping definitions although privacy's left outer join includes aspects of sharing and user consent while security's right outer join includes aspects of availability (uptime) and unauthorized access to computing resources that are not data (such as CPU cycles)
+* at this point in our technological evolution we should treat them as one and the same; privacy cannot exist with the assurances security provides and privacy drives the need for security.
 
 ##informed consent
 
