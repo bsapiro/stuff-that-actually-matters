@@ -97,6 +97,7 @@ _note: intentionally focused on why and what - not how (there are plenty of publ
 * If civil society depends on certain assumed security properties of your software, their absence may actually result in actual harm including the possibility of inprisonment or death
 
 ##an impossible promise (but one we must make anyways)
+When a user uses our software they expect it will always keep their data safe, in every circumstance. Unless we put in blazing letters at the front of the software "we will not keep your data safe" then the user will assume we shall do so and by offering them your software you have entered into this implicit contract.
 
 ##security and privacy at the beginning
 note: _might move this closer to the business problem point_
