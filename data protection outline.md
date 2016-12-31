@@ -117,6 +117,9 @@ _note: intentionally focused on why and what - not how (there are plenty of publ
 * Best case you're playing a case of catchup to fix a security defect, worse case you're cleaning up after its too late
 
 ##responsible disclosure
+* sometimes our software has security defects in it and its important to tell your users about it so that they can make an informed decision about fixing it.
+* Ideally the software updates itself automatically without impact to or involvement of the user(which, if you look at web browsers, is now a universally adopted pattern)
+* However, if your software doesn't then you owe it to your users to tell them that a security is weaker than they though it to be so they can choose what to do
 
 ##design defensively - do not put yourself in a position of trust
 * as we see legislation being passed in the United Kingdom, China and other jurisdictions that either require that "technical assistance" of some sort be provided to law enforcement on request. At first that seems entirely reasonable, but what if that technical assistance means weakening encryption or putting a backdoor in your software?
