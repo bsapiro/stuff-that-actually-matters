@@ -110,10 +110,10 @@ _note: intentionally focused on why and what - not how (there are plenty of publ
 * We know that security breaches happen, we know they have varying degrees of severity and while actuarial tables don't exist for this class of risk, it is possible to build informed models that actually describe the likelihood of a breach and it's actual impact (Monte Carlo sim, "How to Measure Anything" by Douglas W. Hubbard - no... not that Hubbard)
 * Good coding style is barely more expensive in the short term and cheaper in the long term. Good design practices are likely more expensive for the duration (security at a design may require more abstractions and overall functionality)
 * be cautious of the "do just enough" or "what's the rest of the market doing" rationale. While it may be a rational business decision, consider the following:
-..* being industry average is literal solace when you get hacked and your competitors don't
-..* if the rest of the industry does a poor job, does that excuse you from your moral responsibility to do the right thing?
-..* some classes of bugs are trivial to fix quickly but for those that are not, you could find your software in a vulnerable state for months as you refactor code or possibly even rearchitect your software
-..* you do not control the rate of progress the criminal element (or even security researchers) make in abusing vulnerabilities in your software. More importantly you are blind to their efforts (and possibly even their success)
+  * being industry average is literal solace when you get hacked and your competitors don't
+  * if the rest of the industry does a poor job, does that excuse you from your moral responsibility to do the right thing?
+  * some classes of bugs are trivial to fix quickly but for those that are not, you could find your software in a vulnerable state for months as you refactor code or possibly even rearchitect your software
+  * you do not control the rate of progress the criminal element (or even security researchers) make in abusing vulnerabilities in your software. More importantly you are blind to their efforts (and possibly even their success)
 * Best case you're playing a case of catchup to fix a security defect, worse case you're cleaning up after its too late
 
 ##responsible disclosure
