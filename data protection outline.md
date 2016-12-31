@@ -23,8 +23,6 @@ _note: intentionally focused on why and what - not how (there are plenty of publ
 
 > I will give you data and expect that you will keep it safe. Protected from unauthorized access; free from corruption and available when I need it. I will give you no reprieve in this matter
 
-* 
-
 ##as we became connected we relied more on everything around us
 * your software relies on third party components, a data centre, other service providers
 * to make our software we work we may actually share some or all of the data we collect with someone who transforms it in some useful way
@@ -41,11 +39,14 @@ _note: intentionally focused on why and what - not how (there are plenty of publ
 
 ##why are hacks possible?
 * we won't discuss all the means in fact we'll concencrate on concepts alone
-* bugs in software - pure implementation flaws, logic errors, design mistakes or intentional ommissions based on ignorance or invalid assumptions
-* implementation flaw lack of input validation
-* assuming you were operating inside an environment you have exclusive control of
-* relying on third parties/components to behave in a consistent manner
-* the top of objective for a hacker is
+* bugs in software - pure implementation flaws, logic errors, design mistakes or intentional ommissions based on ignorance or invalid assumptions:
+  * lack of input and output validation
+  * relying on third parties/components to behave in a consistent manner (including software that has its own security defects)
+* or design flaws:
+  * assuming you were operating inside an environment you had exclusive control of
+  * failing to isolate data from other components or collecting too much
+  * failing to manage access to resources
+* the top of objective for a hacker is to gain unauthorized access, the why rarely matters but generally informs what happens next. The differences between the decision to erase all your data, versus steal it all (or anything else) is trivial and the execution of that decision is mechnanical, just code, at that point
 
 ##the smallest unit of data
 * pretend for a second that none of the data your software processed mattered
@@ -97,6 +98,7 @@ _note: intentionally focused on why and what - not how (there are plenty of publ
 * If civil society depends on certain assumed security properties of your software, their absence may actually result in actual harm including the possibility of inprisonment or death
 
 ##an impossible promise (but one we must make anyways)
+_note: might merge with "user expectations" above_
 When a user uses our software they expect it will always keep their data safe, in every circumstance. Unless we put in blazing letters at the front of the software "we will not keep your data safe" then the user will assume we shall do so and by offering them your software you have entered into this implicit contract.
 
 ##security and privacy at the beginning
