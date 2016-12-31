@@ -145,7 +145,7 @@ note: _might move this closer to the business problem point_
 * make eveyone in your team responsible for delivering software that is secure and respects a user's privacy by design
 
 ##a note on the internet of shitty things
-* We're connecting more of our lifes by instrumenting our movements, automating our homes
+* We're connecting more of our lives by instrumenting our movements, automating our homes
 * The software inside IoT devices has poor quality (Mirai botnet) and remains unpatched, outdated with little incentive to manufacturers to update
 * Not only do these poorly designed software devices expose their owners to harm but we've seen them cause harm to others (massive Botnets)
 * IoT devices are long term devices; we've seen with SCADA/PLC that they remain in use far past their "best before date" meaning risk lives for a long time
